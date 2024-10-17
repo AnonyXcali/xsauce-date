@@ -20,4 +20,6 @@ class DateFormatter implements IDateFormatter {
   }
 }
 
-export default DateFormatter
+export {
+  DateFormatter
+}

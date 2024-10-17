@@ -14,4 +14,6 @@ class DateManipulator implements IDateManipulator {
   }
 }
 
-export default DateManipulator
+export {
+  DateManipulator
+} 

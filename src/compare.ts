@@ -21,4 +21,6 @@ class DateComparer implements IDateComparer {
   }
 }
 
-export default DateComparer
+export {
+  DateComparer
+}
