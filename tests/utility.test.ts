@@ -1,6 +1,6 @@
-import { DateUtilities } from '../src/utility'
+import { DateUtilities } from '../src/utility';
 
-const utils = new DateUtilities()
+const utils = new DateUtilities();
 
 test('isLeapYear - true', () => {
   expect(utils.isLeapYear(2024)).toBe(true);

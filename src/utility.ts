@@ -1,4 +1,4 @@
-import { Utility } from "./types"
+import { Utility } from './types';
 
 class DateUtilities implements Utility {
   isLeapYear(year: number): boolean {
@@ -23,6 +23,4 @@ class DateUtilities implements Utility {
   }
 }
 
-export {
-  DateUtilities
-}
+export { DateUtilities };
